@@ -43,7 +43,7 @@ app.get('/hello', (req, res) => {
     res.send('<h1>Hello World</h1>')
 })
 
-app.get('mygithub', (req, res) => {
+app.get('/mygithub', (req, res) => {
     res.json(githubApi)
 
 })
